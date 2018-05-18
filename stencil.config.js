@@ -1,4 +1,9 @@
 exports.config = {
+  bundles:[
+    {
+      components: ['h5-user']
+    }
+  ],
   namespace: 'mycomponent',
   outputTargets:[
     { 
